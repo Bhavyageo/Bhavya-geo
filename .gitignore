@@ -1,0 +1,48 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Next.js build output
+/.next/
+/out/
+/build
+/dist
+
+# Vercel
+.vercel
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env*.local
+.env
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Non-project workspace artifacts & files in Documents
+*.R
+.RData
+.Rhistory
+.active-rstudio-document
+*.csv
+*.pptx
+*.zip
+reference_image.jpg
+/Custom Office Templates/
+/My Music/
+/My Pictures/
+/My Videos/

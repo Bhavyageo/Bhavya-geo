@@ -1,0 +1,48 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@theme inline {
+  --font-sans: var(--font-nunito), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-heading: var(--font-quicksand), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  
+  --color-cream: #FAF8F5;
+  --color-cream-card: #FFFFFF;
+  
+  --color-text-primary: #231834;
+  --color-text-muted: #746882;
+  
+  --color-accent-lavender: #F2EFF8;
+  --color-accent-lavender-border: #DED6EA;
+  --color-accent-pink: #F9EEF2;
+  --color-accent-pink-border: #EED7DF;
+  --color-accent-sage: #EEF4EE;
+  --color-accent-sage-border: #D5E4D5;
+}
+
+:root {
+  --background: #FAF8F5;
+  --foreground: #231834;
+}
+
+body {
+  background-color: #FAF8F5;
+  color: #231834;
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Subtle, quiet scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #E2DBEB;
+  border-radius: 99px;
+}
